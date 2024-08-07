@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+}
+
+
+#box1{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: greenyellow;
+
+    /* Percentages move the element by x percent of the width or height of the element */
+    /* transform: translateX(100%); */
+    
+
+    /* Translate x and y.  Positive values go right and down, negative goes left and up */
+    transform: translate(100%,100%);
+
+    /* We can rotate x */
+    transform: rotateX(180deg);
+
+    /* We can rotate Y */
+    transform: rotateY(180deg);
+
+    /* We can rotate z */
+    transform: rotateZ(45deg);
+
+    /* We can scale x */
+    transform: scale(2);
+
+    /* We can scale x and y */
+    transform: scale(2,1);
+
+    /* We can skew the element to twist or distort it */
+    transform: skewX(1235deg);
+
+    /* You can even transform more than one thing at a time */
+    transform: translatex(100%) rotatez(90deg) scale(0.5);
+
+}
+
+#box2{
+    background-color: aqua;
+}
+
+#box3{
+    background-color: rgb(206, 19, 81);
+}
+
+#box4{
+    background-color: rgb(251, 255, 19);
+}
+
+.boxC{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    transform: translateX(100px) rotateZ(45deg) scale(0.5);
+
+}
